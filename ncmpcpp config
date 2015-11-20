@@ -5,8 +5,8 @@
 # save to file ~/.ncmpcpp/config
 
 % egrep -v '^#' .ncmpcpp/config
-mpd_music_dir = "/home/light/Music/"
-visualizer_in_stereo = "yes
+mpd_music_dir = "/home/light/Music"
+visualizer_in_stereo = "yes"
 visualizer_fifo_path = "/tmp/mpd.fifo"
 visualizer_output_name = "my_fifo"
 visualizer_sync_interval = "30"
@@ -37,6 +37,6 @@ mpd_host = "127.0.0.1"
 mpd_port = "6601"
 mouse_list_scroll_whole_page = "yes"
 lines_scrolled = "1"
-ask_before_clearing_main_playlist = "yes"
+#ask_before_clearing_main_playlist = "yes"
 enable_window_title = "yes"
 song_columns_list_format = "(25)[cyan]{a} (40)[]{f} (30)[red]{b} (7f)[green]{l}"
