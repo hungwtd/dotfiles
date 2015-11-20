@@ -1,3 +1,9 @@
+# ~/.ncmpcpp/bindings
+#def_key "9"
+#  show_help
+#----------------------------------
+# save to file ~/.ncmpcpp/config
+
 % egrep -v '^#' .ncmpcpp/config
 mpd_music_dir = "/home/light/Music/"
 visualizer_in_stereo = "yes
